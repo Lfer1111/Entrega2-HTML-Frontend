@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="item1">
+                <a href="index.html" class="item1"><img src="./images/logo-pastel.png" alt="pasteleria logo" width="250px" id="logo"></a>
+            </div>
+            <div align="center"  class="item2">
+                <h4>de los creadores de Taconauta:</h4>
+                <h1>Pasteleria LaunchX</h1>
+            </div> 
+        </div>  
+        <nav>
+            <ul>
+                <li><a href="historia.html">Nuestra historia</a></li>
+                <li><a href="pasteles.html">Catalogo Pasteles</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="trabajo.html">Bolsa de Trabajo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <hr>
+    <br>
+    
+    <section>
+        <h2>Bolsa de trabajo</h2>
+        <h3>Bienvenid@s proxim@s Soci@s</h3>
+        <p>Únete tu talento al nuestro, tenemos las siguientes vacantes para ti:</p>
+        <ul>
+            <li>Pastelero</li>
+            <li>Cajero</li>
+            <li>Supervisor</li>
+            <li>Chofer repartidor</li>
+            <li>Botarga / Volantero</li>
+        </ul>
+        <form action="/accion.js" id="form1" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required size="35" placeholder="un nombre y un apellido"><br><br>
+            <label for="telefono">Telefono:</label>
+            <input type="number" id="telefono" name="telefono" maxlength="10" required placeholder="celular a 10 digitos"><br><br>
+            <label for="correo">Email:</label>
+            <input type="mail" id="correo" name="correo" required required size="44" placeholder="escribe tu cuenta de correo electronico"><br><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" maxlength="200" placeholder="escribe tu mensaje" required></textarea><br><br>
+            <label for="cv">Adjunta tu curriculum:</label>
+            <input type="file" id="cv" name="cv" required><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form></p>
+    </section>
+    <br>
+    <hr>
+
+    <footer>
+        <p>Felices de servirte. Horarios de atencion: Lunes a Sabado 9:00am a 9:00pm, Domingos cerramos y comemos pastel</p>
+        <p>Pasteles LaunchX. Midtown, Calle Colon 611. Guadalajara, Jalisco, México. Telefono: 3333333333</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
+
+    
+</body>
+</html>
