@@ -16,15 +16,45 @@
         #logo2 {
             border-radius: 15%;
         }        
+        .container {
+            display: flex;
+        }
+        .item1 {
+            align-self: stretch; 
+        }
+        .item2 {
+            align-self: flex-end;
+            margin-left: 20%;
+        }
+        h1 {
+            font-size: 70px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        h4 {
+            font-size: 25px;
+        }
+        ul {
+            font-size: 20px;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="./images/logo-pastel.png" alt="pasteleria logo" width="250px" id="logo"></a>
-        <div align="center">
-            <h4>de los creadores de Taconauta:</h4>
-            <h1 style="font-size:50px;">Pasteleria LaunchX</h1>
-        </div>   
+        <div class="container">
+            <div class="item1">
+                <a href="index.html" class="item1"><img src="./images/logo-pastel.png" alt="pasteleria logo" width="250px" id="logo"></a>
+            </div>
+            <div align="center"  class="item2">
+                <h4>de los creadores de Taconauta:</h4>
+                <h1>Pasteleria LaunchX</h1>
+            </div> 
+        </div>  
         <nav>
             <ul>
                 <li><a href="historia.html">Nuestra historia</a></li>
